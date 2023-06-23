@@ -53,7 +53,7 @@ function sortStudentsByAge() {
 
 // Find student by name in the array
 let sylva = findStudentsByName("Sylva");
-//console.log(findStudentsByName("Sylva")); 
+console.log(findStudentsByName("Sylva")); 
 
 
 // Inserts new student to the array
@@ -62,8 +62,8 @@ console.log(STUDENTS);
 
 // Filter students whoose age are less than 10 years.
 let filteredStudents = filterStudentsByAge();
-//console.log(filterStudentsByAge())
+console.log(filterStudentsByAge())
 
 // Sort students by age in ascending order
 sortStudentsByAge();
-//console.log(STUDENTS);
+console.log(STUDENTS);
